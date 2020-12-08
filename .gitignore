@@ -1,0 +1,47 @@
+## Ignore files without extension ##
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+####################################
+
+# Unignore Makefile
+!Makefile
+
+# Ignore all csv files
+*.csv
+
+# Unignore books.csv
+!books.csv
+
+# Ignore books.json
+books.json
+
+# Ignore object files
+*.obj
+
+# Ignore dynamic libraries
+*.so
+
+# Ignore static libraries
+*.a
+
+# Ignore log files
+*.log
+
+# Ignore valgrind files
+vgcore.*
+
+# Ignore execle program generated file
+feeds_found.txt
+
+# Unignore program called by feeds_crawler
+!fundamentals/execle/feeds_finder
+
+# Unignore program called by feeds_opener
+!fundamentals/pipes/feeds_finder
+
+# Ignore sprite_sheet_create genereted sprite sheet
+allegro/sprite_sheet_create/sprite_sheet.png

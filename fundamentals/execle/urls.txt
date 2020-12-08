@@ -1,0 +1,3 @@
+https://lifehacker.com/rss
+http://feeds.bbci.co.uk/mundo/rss.xml
+https://www.techmeme.com/feed.xml

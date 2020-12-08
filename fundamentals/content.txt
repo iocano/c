@@ -1,0 +1,36 @@
+basic_header                Header, Send EOF signal
+bit_fields                  bitfield
+catch_raise_signal          alarm, getchar, raise, srandom, sigaction, SIGALRM, sigemptyset, SIGINT, STDIN_FILENO, strcmp, struct sigaction, tcgetattr, TCSANOW, time, tcsetattr, termios
+catch_sigalarm              alarm, sigaction, SIGALARM, sigemptyset
+catch_sigint                interrupt a process, sigaction, sigemptyset, SIGINT
+control_structures          do while, else, for, if, switch, while
+curl_and_expat              libcurl, libexpat, regex
+data_type_limits            CHAR_MAX, CHAR_MIN, DBL_MAX, DBL_MIN, FLT_MAX, FLT_MIN, INT_MAX, INT_MIN, SHRT_MAX, SHRT_MIN
+enviroment_variables        execle, getenv
+execle                      dup2, dynamic , execle, exit, fclose, File, fileno, fopen, fork, memcpy, pid_t, sprintf, va_end, va_list, va_start, vfprintf, waitpid
+execution_time              clock, CLOCKS_PER_SEC, clock_t
+fork                        pid_t, fork, getpid, getppid, waitpid, WEXITSTATUS
+function_pointer_array      free, function pointer array, malloc, strcpy, strtof, strtol,free, function pointer array, malloc, strcpy, strtof, strtol,
+function_pointers           3d array, function pointers
+generic_array                define, generic dynamic array, macro
+library_dynamic             -fPIC, -L, -shared, -I, dynamic library, export, make
+library_static              -L, -I, ar, make, static_library
+linked_list                 free, linked list, malloc, memcpy, node
+os_io_pipe_and_redirection  make, os input redirection, os output redirection, pipe, scanf
+parse_command_line_options  atoi, getopt, optarg, optind
+pipes                       close, dup2, execle, fork, pipe, sprintf, system, va_end, va_list, va_start, vfprintf
+pointer_as_argument         dereference, free, malloc, pointer, reference, sizeof, strcpy
+qsort                       qsort
+read_write_files            command line arguments, FILE, fclose, fopen, fprintf, fscanf, strspn, strstr, tolower
+replace_process             command line arguments, enviroment variables, errno, execle, fprintf, getenv, strerror
+socket_client_server        accept, bind, connect, close, fork, listen, memset, recv, send, setsockopt, sockaddr, socket, recv
+socket_server               accept, bind, close, Display errno, errno, listen, rand, send, setsockopt, sockaddr_in, srand
+socket_server_login         accept, bind, catch_signal, close, fork, inet_ntoa, listen, memset, ntohs, recv, send, sigaction, setsockopt, sockaddr_in, socket, strcmp, struct sigaction, sigemptyset, recv
+struct_pointers             dereference, reference, struct array, struct pointer
+structs                     enum, localtime, strftime, struct, struct_tm, time
+system                      asctime_r, localtime_r, sprintf, strcasecomp, struct tm, system, time, time_t
+thread                      pthread_create, pthread_join, pthread_mutex_lock, pthread_mutex_unlock, pthread_t, sleep
+time                        time to string, string to time
+unions                      const, enum, struct, typedef, union
+utilities                   print no printables characters
+variadic_functions          va_end, va_list, va_start, vfprintf
